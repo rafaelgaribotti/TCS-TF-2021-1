@@ -22,6 +22,6 @@ void crypt(uint32_t* key, uint32_t* input, uint8_t type, uint8_t enc_dec, uint32
 	case 4  : blowfish_128(key, input, type, enc_dec, output); break;
 	case 5  : blowfish_128(key, input, type, enc_dec, output); break;
 	case 6  : blowfish_128(key, input, type, enc_dec, output); break;
-	default : printf("");
+	default : printf("%s", "");
   }
 }
